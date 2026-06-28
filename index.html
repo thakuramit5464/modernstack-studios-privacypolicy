@@ -4,34 +4,288 @@
 <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Privacy Policy - Simple Calculator</title>
+        <title>Privacy Policy - ModernStack Calc</title>
+        <style>
+                :root {
+                        /* Light Mode Variables */
+                        --bg-color: #f9f9fb;
+                        --text-color: #333333;
+                        --heading-color: #1a1a1a;
+                        --section-bg: #ffffff;
+                        --border-color: #e5e5e5;
+                        --link-color: #0056b3;
+                        --accent-color: #007bff;
+                        --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+                }
+
+                @media (prefers-color-scheme: dark) {
+                        :root {
+                                /* Dark Mode Variables */
+                                --bg-color: #121212;
+                                --text-color: #e0e0e0;
+                                --heading-color: #ffffff;
+                                --section-bg: #1e1e1e;
+                                --border-color: #333333;
+                                --link-color: #66b2ff;
+                                --accent-color: #4da3ff;
+                        }
+                }
+
+                body {
+                        font-family: var(--font-family);
+                        line-height: 1.6;
+                        color: var(--text-color);
+                        background-color: var(--bg-color);
+                        margin: 0;
+                        padding: 0;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                }
+
+                header {
+                        background-color: var(--section-bg);
+                        width: 100%;
+                        padding: 2rem 1rem;
+                        text-align: center;
+                        border-bottom: 1px solid var(--border-color);
+                        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+                        box-sizing: border-box;
+                }
+
+                header h1 {
+                        margin: 0;
+                        color: var(--heading-color);
+                        font-size: 2.5rem;
+                }
+
+                header p {
+                        margin-top: 0.5rem;
+                        color: var(--text-color);
+                        opacity: 0.8;
+                        font-size: 1.1rem;
+                }
+
+                main {
+                        max-width: 800px;
+                        width: 100%;
+                        padding: 2rem 1rem;
+                        box-sizing: border-box;
+                }
+
+                section {
+                        background-color: var(--section-bg);
+                        padding: 2rem;
+                        margin-bottom: 2rem;
+                        border-radius: 8px;
+                        border: 1px solid var(--border-color);
+                        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+                }
+
+                h2 {
+                        color: var(--accent-color);
+                        margin-top: 0;
+                        border-bottom: 2px solid var(--border-color);
+                        padding-bottom: 0.5rem;
+                        font-size: 1.5rem;
+                }
+
+                h3 {
+                        color: var(--heading-color);
+                        margin-top: 1.5rem;
+                }
+
+                p,
+                ul {
+                        margin-bottom: 1rem;
+                }
+
+                ul {
+                        padding-left: 1.5rem;
+                }
+
+                li {
+                        margin-bottom: 0.5rem;
+                }
+
+                a {
+                        color: var(--link-color);
+                        text-decoration: none;
+                }
+
+                a:hover {
+                        text-decoration: underline;
+                }
+
+                footer {
+                        width: 100%;
+                        text-align: center;
+                        padding: 2rem 1rem;
+                        background-color: var(--section-bg);
+                        border-top: 1px solid var(--border-color);
+                        margin-top: auto;
+                        color: var(--text-color);
+                        font-size: 0.9rem;
+                        box-sizing: border-box;
+                }
+
+                /* Responsive */
+                @media (max-width: 600px) {
+                        header h1 {
+                                font-size: 2rem;
+                        }
+
+                        section {
+                                padding: 1.5rem;
+                        }
+                }
+        </style>
 </head>
 
-<body style="font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; line-height: 1.6;">
-        <h1>Privacy Policy</h1>
+<body>
 
-        <p><strong>Effective Date:</strong> June 28, 2026</p>
+        <header>
+                <h1>Privacy Policy</h1>
+                <p>ModernStack Calc</p>
+                <p><small>Effective Date: June 28, 2026</small></p>
+        </header>
 
-        <p>Simple Calculator respects your privacy.</p>
+        <main>
+                <section>
+                        <h2>Introduction</h2>
+                        <p>This Privacy Policy applies to the <strong>ModernStack Calc</strong> application (hereby
+                                referred to as "the App") for mobile devices, created by <strong>Amit Kumar
+                                        Singh</strong> ("the Developer") as a free service. This service is intended for
+                                use "AS IS".</p>
+                        <p>ModernStack Calc is a modern calculator application designed to perform standard arithmetic
+                                calculations. The App operates completely offline and does not require users to create
+                                an account or log in.</p>
+                </section>
 
-        <h2>Information We Collect</h2>
-        <p>This app does not collect, store, or share any personal information entered by users.</p>
+                <section>
+                        <h2>Data Collection</h2>
+                        <p>The Developer respects your privacy. <strong>The App does not directly collect, store, or
+                                        transmit any personally identifiable information.</strong></p>
+                        <p>Specifically, the App does <strong>not</strong> collect or access:</p>
+                        <ul>
+                                <li>Name</li>
+                                <li>Email address</li>
+                                <li>Phone number</li>
+                                <li>Contacts</li>
+                                <li>Photos or videos</li>
+                                <li>Files</li>
+                                <li>Messages</li>
+                                <li>Location (precise or approximate)</li>
+                                <li>Camera access</li>
+                                <li>Microphone access</li>
+                                <li>Calendar</li>
+                                <li>Clipboard contents</li>
+                                <li>Biometric information</li>
+                                <li>Payment information</li>
+                        </ul>
+                </section>
 
-        <h2>Third-Party Services</h2>
-        <p>This app may use Google Play Services, Firebase Analytics, Firebase Crashlytics, and Google AdMob. These
-                services may collect anonymous usage information according to their own privacy policies.</p>
+                <section>
+                        <h2>Local Storage</h2>
+                        <p>To provide a seamless user experience, the App stores certain information <strong>only
+                                        locally on your device</strong>. This includes:</p>
+                        <ul>
+                                <li>Calculation history</li>
+                                <li>Theme preference (Light, Dark, or System)</li>
+                                <li>Calculator settings</li>
+                                <li>User preferences stored using Android DataStore</li>
+                        </ul>
+                        <p>This information <strong>never leaves your device</strong>. You can completely remove this
+                                data at any time by clearing the App's data in your device settings or by uninstalling
+                                the App.</p>
+                </section>
 
-        <h2>Data Security</h2>
-        <p>We take reasonable measures to protect user data.</p>
+                <section>
+                        <h2>Permissions</h2>
+                        <p>ModernStack Calc is designed to respect your device's security and requests only the absolute
+                                minimum permissions necessary for its core functionality.</p>
+                        <p><strong>The App does not request any dangerous Android runtime permissions.</strong> It
+                                operates fully within its sandboxed environment without requiring intrusive access to
+                                your device's resources.</p>
+                </section>
 
-        <h2>Children's Privacy</h2>
-        <p>This app is not intended for children under the age of 13.</p>
+                <section>
+                        <h2>Third-Party Services</h2>
+                        <p>ModernStack Calc operates independently.</p>
+                        <p><strong>ModernStack Calc does not use third-party analytics, advertising, or crash-reporting
+                                        services.</strong> (e.g., no Firebase Analytics, Firebase Crashlytics, Google
+                                AdMob, etc.).</p>
+                        <p>The App relies only on standard Android frameworks and Google Play Services required for
+                                general app distribution via the Google Play Store.</p>
+                </section>
 
-        <h2>Changes to This Privacy Policy</h2>
-        <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page.</p>
+                <section>
+                        <h2>Data Sharing</h2>
+                        <p>Because the App does not collect any personal data, there is no data to share. Specifically:
+                        </p>
+                        <ul>
+                                <li>No personal data is sold.</li>
+                                <li>No personal data is rented.</li>
+                                <li>No personal data is shared with third parties.</li>
+                                <li>No user information is transmitted to external servers by the App.</li>
+                        </ul>
+                </section>
 
-        <h2>Contact</h2>
-        <p>Email: your-email@example.com</p>
+                <section>
+                        <h2>Children's Privacy</h2>
+                        <p>ModernStack Calc is suitable for general audiences. The Developer does not knowingly collect
+                                personal information from children. If you are a parent or guardian and believe that
+                                your child has provided personal information, please contact the Developer, though as
+                                stated, the App fundamentally does not collect personal data.</p>
+                </section>
+
+                <section>
+                        <h2>Data Security</h2>
+                        <p>The security of your experience is a priority. Because all App data (such as calculation
+                                history and preferences) remains exclusively on your local device and is never
+                                transmitted over the internet by the App, the risk of data interception or breach during
+                                transmission is virtually eliminated.</p>
+                        <p>However, please be aware that no method of electronic storage on a mobile device is 100%
+                                secure, and the Developer cannot guarantee absolute security of the device itself.</p>
+                </section>
+
+                <section>
+                        <h2>User Rights</h2>
+                        <p>Depending on your jurisdiction (such as under GDPR or CCPA), you may have rights regarding
+                                your personal data (access, modification, deletion). </p>
+                        <p>Because ModernStack Calc <strong>does not collect, hold, or process any personal
+                                        information</strong>, there is generally no personal data held by the Developer
+                                for you to access, modify, or delete. You have complete control over your local data and
+                                can delete it by uninstalling the App or clearing its data on your device.</p>
+                </section>
+
+                <section>
+                        <h2>Policy Updates</h2>
+                        <p>The Developer may update this Privacy Policy from time to time as the App evolves or to
+                                reflect changes in legal or regulatory requirements. Any changes will be posted on this
+                                page, and the "Effective Date" at the top will be updated.</p>
+                        <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this
+                                Privacy Policy are effective when they are posted on this page.</p>
+                </section>
+
+                <section>
+                        <h2>Contact Us</h2>
+                        <p>If you have any questions or suggestions about this Privacy Policy, do not hesitate to
+                                contact the Developer:</p>
+                        <ul>
+                                <li><strong>Developer:</strong> Amit Kumar Singh</li>
+                                <li><strong>Email:</strong> <a
+                                                href="mailto:thakuramit5464@gmail.com">thakuramit5464@gmail.com</a>
+                                </li>
+                        </ul>
+                </section>
+        </main>
+
+        <footer>
+                <p>&copy; 2026 Amit Kumar Singh. All rights reserved.</p>
+                <p>ModernStack Calc</p>
+        </footer>
+
 </body>
 
 </html>
